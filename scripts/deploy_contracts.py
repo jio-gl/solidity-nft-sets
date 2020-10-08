@@ -1,0 +1,5 @@
+ir = accounts[0].deploy(DefaultIdentityResolverService)
+im = accounts[0].deploy(IdentityMasterService)
+im.registerPlatform(ir.address,{'from': accounts[0]})
+es = accounts[0].deploy(EventMasterService, im.address)
+import time; time.sleep(10**6)
