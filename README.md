@@ -1,6 +1,6 @@
 # solidity-nft-sets
 
-A Non-fungible Token (NFT) Framework including Serial Numbers and Identity, written in Solidity and Eth-Brownie Framework.
+A Non-fungible Token (NFT) Framework including Serial Numbers, Identity and Meta-transactions, written in Solidity and Eth-Brownie Framework.
 
 ## Installing on Linux (with virtualenv)
 
